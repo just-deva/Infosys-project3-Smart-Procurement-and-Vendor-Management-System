@@ -1,8 +1,6 @@
 <div align="center">
 
-# 🛒 $\color{#FACC15}\textsf{\textbf{Smart Procurement \& Vendor Management System (SPVMS)}}$
-
-### $\color{#FB923C}\textsf{\textbf{Capstone Project — Infosys Springboard Virtual Internship 7.0}}$
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=120&text=Smart%20Procurement%20%26%20Vendor%20Management&fontSize=34&fontColor=FACC15&desc=Capstone%20Project%20%E2%80%94%20Infosys%20Springboard%20Virtual%20Internship%207.0&descSize=17&descColor=FB923C&descAlignY=78" alt="Smart Procurement & Vendor Management System" />
 
 ![Build Status](https://img.shields.io/badge/build-passing-4F46E5?style=for-the-badge&logo=github-actions&logoColor=A5B4FC&labelColor=1E1B4B)
 ![Python](https://img.shields.io/badge/Python-3.11+-4338CA?style=for-the-badge&logo=python&logoColor=A5B4FC&labelColor=1E1B4B)
@@ -18,7 +16,7 @@
 
 ---
 
-## 📖 $\color{#FB923C}\textsf{\textbf{Overview \& Executive Summary}}$
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&text=Overview%20%26%20Executive%20Summary&fontSize=22&fontColor=FB923C&fontAlign=0&fontAlignY=55" alt="Overview & Executive Summary" />
 
 During my 3-month **Infosys Springboard Virtual Internship 7.0**, I designed and developed three progressive backend and enterprise software engineering projects—culminating in the **Smart Procurement & Vendor Management System (SPVMS)**.
 
@@ -26,7 +24,7 @@ SPVMS modernizes traditional supply chain and procurement workflows by replacing
 
 ---
 
-## 🔗 $\color{#FB923C}\textsf{\textbf{Individual Project Repositories}}$
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&text=Individual%20Project%20Repositories&fontSize=22&fontColor=FB923C&fontAlign=0&fontAlignY=55" alt="Individual Project Repositories" />
 
 This capstone consolidates my work across the three software engineering milestones completed during the internship. You can explore, review, or inspect the standalone repositories for each individual project below:
 
@@ -38,7 +36,7 @@ This capstone consolidates my work across the three software engineering milesto
 
 ---
 
-## ✨ $\color{#FB923C}\textsf{\textbf{Core Capabilities}}$
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&text=Core%20Capabilities&fontSize=22&fontColor=FB923C&fontAlign=0&fontAlignY=55" alt="Core Capabilities" />
 
 * **🤝 Vendor Registry & Risk Scoring:** Centralized vendor onboarding with profile management, compliance verification, and AI-assisted performance/risk evaluation.
 * **📝 Purchase Requisition & Approval Flow:** Structured request submission and multi-tier review pipeline to validate budget and procurement needs before order generation.
@@ -48,7 +46,7 @@ This capstone consolidates my work across the three software engineering milesto
 
 ---
 
-## 🔄 $\color{#FB923C}\textsf{\textbf{Procurement Workflow}}$
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&text=Procurement%20Workflow&fontSize=22&fontColor=FB923C&fontAlign=0&fontAlignY=55" alt="Procurement Workflow" />
 
 ```text
 ┌──────────────────────┐     ┌──────────────────────┐     ┌──────────────────────┐
@@ -65,24 +63,27 @@ This capstone consolidates my work across the three software engineering milesto
 
 ---
 
-## 🛠️ $\color{#FB923C}\textsf{\textbf{System Architecture}}$
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&text=System%20Architecture&fontSize=22&fontColor=FB923C&fontAlign=0&fontAlignY=55" alt="System Architecture" />
 
 The platform follows a modular, event-driven microservices architecture ensuring high availability, security, and seamless integration with external ERP systems.
 
 ```mermaid
 graph TD
+    %% User Tier
     subgraph Clients ["💻 Client Layer"]
         A[Admin Dashboard]
         B[Vendor Portal]
         C[Mobile Approval App]
     end
 
+    %% Gateway & Auth
     subgraph Gateway ["🔒 API Gateway & Security"]
         GW[API Gateway / Nginx]
         AUTH[OAuth2 / JWT Manager]
         RBAC[RBAC Access Control]
     end
 
+    %% Core Services
     subgraph Microservices ["⚙️ Core Backend Services"]
         VS[Vendor Service]
         PR[Procurement Service]
@@ -91,6 +92,7 @@ graph TD
         AI[AI Risk & Analytics Engine]
     end
 
+    %% Storage & Message Layer
     subgraph Persistence ["💾 Data & Messaging Layer"]
         DB[(PostgreSQL Primary)]
         REDIS[(Redis Cache & Queues)]
@@ -113,7 +115,7 @@ graph TD
 
 ---
 
-## 🚀 $\color{#FB923C}\textsf{\textbf{Getting Started}}$
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&text=Getting%20Started&fontSize=22&fontColor=FB923C&fontAlign=0&fontAlignY=55" alt="Getting Started" />
 
 <details>
 <summary><strong>📦 Click to expand setup & installation instructions</strong></summary>
@@ -149,7 +151,7 @@ graph TD
 
 ---
 
-## 👩‍💻 $\color{#FB923C}\textsf{\textbf{Author \& License}}$
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&text=Author%20%26%20License&fontSize=22&fontColor=FB923C&fontAlign=0&fontAlignY=55" alt="Author & License" />
 
 **Devadarshini S**  
 B.Tech Computer Science & Engineering (Cybersecurity) — Amrita Vishwa Vidyapeetham  
