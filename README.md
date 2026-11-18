@@ -39,11 +39,11 @@ This capstone consolidates my work across the three software engineering milesto
 
 ## Core Capabilities
 
-* ** Vendor Registry & Risk Scoring:** Centralized vendor onboarding with profile management, compliance verification, and AI-assisted performance/risk evaluation.
-* ** Purchase Requisition & Approval Flow:** Structured request submission and multi-tier review pipeline to validate budget and procurement needs before order generation.
-* ** Automated RFQ & Bidding Management:** Streamlined Request for Quotation creation and side-by-side vendor quote evaluation.
-* ** Automated Purchase Order (PO) & Invoicing:** End-to-end PO lifecycle tracking (`Draft` → `Approved` → `Dispatched` → `Fulfilled`) paired with automated billing and document storage.
-* ** OAuth2 / JWT & Role-Based Access Control (RBAC):** Strict access separation between requesters, approvers, finance teams, and vendor administrators.
+* **Vendor Registry & Risk Scoring:** Centralized vendor onboarding with profile management, compliance verification, and AI-assisted performance/risk evaluation.
+* **Purchase Requisition & Approval Flow:** Structured request submission and multi-tier review pipeline to validate budget and procurement needs before order generation.
+* **Automated RFQ & Bidding Management:** Streamlined Request for Quotation creation and side-by-side vendor quote evaluation.
+* **Automated Purchase Order (PO) & Invoicing:** End-to-end PO lifecycle tracking (`Draft` → `Approved` → `Dispatched` → `Fulfilled`) paired with automated billing and document storage.
+* **OAuth2 / JWT & Role-Based Access Control (RBAC):** Strict access separation between requesters, approvers, finance teams, and vendor administrators.
 
 ---
 
