@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&height=120&text=Smart%20Procurement%20%26%20Vendor%20Management&fontSize=34&fontColor=FACC15&desc=Capstone%20Project%20%E2%80%94%20Infosys%20Springboard%20Virtual%20Internship%207.0&descSize=17&descColor=FB923C&descAlignY=78" alt="Smart Procurement & Vendor Management System" />
+# 🛒 Smart Procurement & Vendor Management System (SPVMS)
+### Capstone Project — Infosys Springboard Virtual Internship 7.0
 
 ![Build Status](https://img.shields.io/badge/build-passing-4F46E5?style=for-the-badge&logo=github-actions&logoColor=A5B4FC&labelColor=1E1B4B)
 ![Python](https://img.shields.io/badge/Python-3.11+-4338CA?style=for-the-badge&logo=python&logoColor=A5B4FC&labelColor=1E1B4B)
@@ -16,7 +17,7 @@
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&text=Overview%20%26%20Executive%20Summary&fontSize=22&fontColor=FB923C&fontAlign=0&fontAlignY=55" alt="Overview & Executive Summary" />
+## 📖 Overview & Executive Summary
 
 During my 3-month **Infosys Springboard Virtual Internship 7.0**, I designed and developed three progressive backend and enterprise software engineering projects—culminating in the **Smart Procurement & Vendor Management System (SPVMS)**.
 
@@ -24,7 +25,7 @@ SPVMS modernizes traditional supply chain and procurement workflows by replacing
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&text=Individual%20Project%20Repositories&fontSize=22&fontColor=FB923C&fontAlign=0&fontAlignY=55" alt="Individual Project Repositories" />
+## 🔗 Individual Project Repositories
 
 This capstone consolidates my work across the three software engineering milestones completed during the internship. You can explore, review, or inspect the standalone repositories for each individual project below:
 
@@ -36,17 +37,17 @@ This capstone consolidates my work across the three software engineering milesto
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&text=Core%20Capabilities&fontSize=22&fontColor=FB923C&fontAlign=0&fontAlignY=55" alt="Core Capabilities" />
+## Core Capabilities
 
-* **🤝 Vendor Registry & Risk Scoring:** Centralized vendor onboarding with profile management, compliance verification, and AI-assisted performance/risk evaluation.
-* **📝 Purchase Requisition & Approval Flow:** Structured request submission and multi-tier review pipeline to validate budget and procurement needs before order generation.
-* **⚖️ Automated RFQ & Bidding Management:** Streamlined Request for Quotation creation and side-by-side vendor quote evaluation.
-* **🧾 Automated Purchase Order (PO) & Invoicing:** End-to-end PO lifecycle tracking (`Draft` → `Approved` → `Dispatched` → `Fulfilled`) paired with automated billing and document storage.
-* **🔐 OAuth2 / JWT & Role-Based Access Control (RBAC):** Strict access separation between requesters, approvers, finance teams, and vendor administrators.
+* ** Vendor Registry & Risk Scoring:** Centralized vendor onboarding with profile management, compliance verification, and AI-assisted performance/risk evaluation.
+* ** Purchase Requisition & Approval Flow:** Structured request submission and multi-tier review pipeline to validate budget and procurement needs before order generation.
+* ** Automated RFQ & Bidding Management:** Streamlined Request for Quotation creation and side-by-side vendor quote evaluation.
+* ** Automated Purchase Order (PO) & Invoicing:** End-to-end PO lifecycle tracking (`Draft` → `Approved` → `Dispatched` → `Fulfilled`) paired with automated billing and document storage.
+* ** OAuth2 / JWT & Role-Based Access Control (RBAC):** Strict access separation between requesters, approvers, finance teams, and vendor administrators.
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&text=Procurement%20Workflow&fontSize=22&fontColor=FB923C&fontAlign=0&fontAlignY=55" alt="Procurement Workflow" />
+## 🔄 Procurement Workflow
 
 ```text
 ┌──────────────────────┐     ┌──────────────────────┐     ┌──────────────────────┐
@@ -63,28 +64,28 @@ This capstone consolidates my work across the three software engineering milesto
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&text=System%20Architecture&fontSize=22&fontColor=FB923C&fontAlign=0&fontAlignY=55" alt="System Architecture" />
+## 🛠️ System Architecture
 
 The platform follows a modular, event-driven microservices architecture ensuring high availability, security, and seamless integration with external ERP systems.
 
 ```mermaid
 graph TD
     %% User Tier
-    subgraph Clients ["💻 Client Layer"]
+    subgraph Clients [" Client Layer"]
         A[Admin Dashboard]
         B[Vendor Portal]
         C[Mobile Approval App]
     end
 
     %% Gateway & Auth
-    subgraph Gateway ["🔒 API Gateway & Security"]
+    subgraph Gateway [" API Gateway & Security"]
         GW[API Gateway / Nginx]
         AUTH[OAuth2 / JWT Manager]
         RBAC[RBAC Access Control]
     end
 
     %% Core Services
-    subgraph Microservices ["⚙️ Core Backend Services"]
+    subgraph Microservices [" Core Backend Services"]
         VS[Vendor Service]
         PR[Procurement Service]
         RFQ[RFQ & Bidding Service]
@@ -93,7 +94,7 @@ graph TD
     end
 
     %% Storage & Message Layer
-    subgraph Persistence ["💾 Data & Messaging Layer"]
+    subgraph Persistence [" Data & Messaging Layer"]
         DB[(PostgreSQL Primary)]
         REDIS[(Redis Cache & Queues)]
         S3[(AWS S3 / Document Store)]
@@ -115,10 +116,10 @@ graph TD
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&text=Getting%20Started&fontSize=22&fontColor=FB923C&fontAlign=0&fontAlignY=55" alt="Getting Started" />
+## 🚀 Getting Started
 
 <details>
-<summary><strong>📦 Click to expand setup & installation instructions</strong></summary>
+<summary><strong> Click to expand setup & installation instructions</strong></summary>
 
 <br>
 
@@ -151,7 +152,7 @@ graph TD
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&height=45&text=Author%20%26%20License&fontSize=22&fontColor=FB923C&fontAlign=0&fontAlignY=55" alt="Author & License" />
+## 👩‍💻 Author & License
 
 **Devadarshini S**  
 B.Tech Computer Science & Engineering (Cybersecurity) — Amrita Vishwa Vidyapeetham  
