@@ -1,8 +1,8 @@
 <div align="center">
 
-$$\Large\color{#FACC15}\textsf{\textbf{🛒 Smart Procurement \& Vendor Management System (SPVMS)}}$$
+# 🛒 $\color{#FACC15}\textsf{\textbf{Smart Procurement \& Vendor Management System (SPVMS)}}$
 
-$$\large\color{#FB923C}\textsf{\textbf{Capstone Project — Infosys Springboard Virtual Internship 7.0}}$$
+### $\color{#FB923C}\textsf{\textbf{Capstone Project — Infosys Springboard Virtual Internship 7.0}}$
 
 ![Build Status](https://img.shields.io/badge/build-passing-4F46E5?style=for-the-badge&logo=github-actions&logoColor=A5B4FC&labelColor=1E1B4B)
 ![Python](https://img.shields.io/badge/Python-3.11+-4338CA?style=for-the-badge&logo=python&logoColor=A5B4FC&labelColor=1E1B4B)
@@ -18,7 +18,7 @@ $$\large\color{#FB923C}\textsf{\textbf{Capstone Project — Infosys Springboard 
 
 ---
 
-$$\large\color{#FB923C}\textsf{\textbf{📖 Overview \& Executive Summary}}$$
+## 📖 $\color{#FB923C}\textsf{\textbf{Overview \& Executive Summary}}$
 
 During my 3-month **Infosys Springboard Virtual Internship 7.0**, I designed and developed three progressive backend and enterprise software engineering projects—culminating in the **Smart Procurement & Vendor Management System (SPVMS)**.
 
@@ -26,7 +26,7 @@ SPVMS modernizes traditional supply chain and procurement workflows by replacing
 
 ---
 
-$$\large\color{#FB923C}\textsf{\textbf{🔗 Individual Project Repositories}}$$
+## 🔗 $\color{#FB923C}\textsf{\textbf{Individual Project Repositories}}$
 
 This capstone consolidates my work across the three software engineering milestones completed during the internship. You can explore, review, or inspect the standalone repositories for each individual project below:
 
@@ -38,7 +38,7 @@ This capstone consolidates my work across the three software engineering milesto
 
 ---
 
-$$\large\color{#FB923C}\textsf{\textbf{✨ Core Capabilities}}$$
+## ✨ $\color{#FB923C}\textsf{\textbf{Core Capabilities}}$
 
 * **🤝 Vendor Registry & Risk Scoring:** Centralized vendor onboarding with profile management, compliance verification, and AI-assisted performance/risk evaluation.
 * **📝 Purchase Requisition & Approval Flow:** Structured request submission and multi-tier review pipeline to validate budget and procurement needs before order generation.
@@ -48,7 +48,7 @@ $$\large\color{#FB923C}\textsf{\textbf{✨ Core Capabilities}}$$
 
 ---
 
-$$\large\color{#FB923C}\textsf{\textbf{🔄 Procurement Workflow}}$$
+## 🔄 $\color{#FB923C}\textsf{\textbf{Procurement Workflow}}$
 
 ```text
 ┌──────────────────────┐     ┌──────────────────────┐     ┌──────────────────────┐
@@ -65,27 +65,24 @@ $$\large\color{#FB923C}\textsf{\textbf{🔄 Procurement Workflow}}$$
 
 ---
 
-$$\large\color{#FB923C}\textsf{\textbf{🛠️ System Architecture}}$$
+## 🛠️ $\color{#FB923C}\textsf{\textbf{System Architecture}}$
 
 The platform follows a modular, event-driven microservices architecture ensuring high availability, security, and seamless integration with external ERP systems.
 
 ```mermaid
 graph TD
-    %% User Tier
     subgraph Clients ["💻 Client Layer"]
         A[Admin Dashboard]
         B[Vendor Portal]
         C[Mobile Approval App]
     end
 
-    %% Gateway & Auth
     subgraph Gateway ["🔒 API Gateway & Security"]
         GW[API Gateway / Nginx]
         AUTH[OAuth2 / JWT Manager]
         RBAC[RBAC Access Control]
     end
 
-    %% Core Services
     subgraph Microservices ["⚙️ Core Backend Services"]
         VS[Vendor Service]
         PR[Procurement Service]
@@ -94,7 +91,6 @@ graph TD
         AI[AI Risk & Analytics Engine]
     end
 
-    %% Storage & Message Layer
     subgraph Persistence ["💾 Data & Messaging Layer"]
         DB[(PostgreSQL Primary)]
         REDIS[(Redis Cache & Queues)]
@@ -117,7 +113,7 @@ graph TD
 
 ---
 
-$$\large\color{#FB923C}\textsf{\textbf{🚀 Getting Started}}$$
+## 🚀 $\color{#FB923C}\textsf{\textbf{Getting Started}}$
 
 <details>
 <summary><strong>📦 Click to expand setup & installation instructions</strong></summary>
@@ -153,7 +149,7 @@ $$\large\color{#FB923C}\textsf{\textbf{🚀 Getting Started}}$$
 
 ---
 
-$$\large\color{#FB923C}\textsf{\textbf{👩‍💻 Author \& License}}$$
+## 👩‍💻 $\color{#FB923C}\textsf{\textbf{Author \& License}}$
 
 **Devadarshini S**  
 B.Tech Computer Science & Engineering (Cybersecurity) — Amrita Vishwa Vidyapeetham  
