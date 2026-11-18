@@ -1,7 +1,8 @@
 <div align="center">
 
-# 🛒 Smart Procurement & Vendor Management System (SPVMS)
-### Capstone Project — Infosys Springboard Virtual Internship 7.0
+$$\Large\color{#FACC15}\textsf{\textbf{🛒 Smart Procurement \& Vendor Management System (SPVMS)}}$$
+
+$$\large\color{#FB923C}\textsf{\textbf{Capstone Project — Infosys Springboard Virtual Internship 7.0}}$$
 
 ![Build Status](https://img.shields.io/badge/build-passing-4F46E5?style=for-the-badge&logo=github-actions&logoColor=A5B4FC&labelColor=1E1B4B)
 ![Python](https://img.shields.io/badge/Python-3.11+-4338CA?style=for-the-badge&logo=python&logoColor=A5B4FC&labelColor=1E1B4B)
@@ -13,13 +14,11 @@
 
 **An end-to-end, AI-enabled enterprise procurement platform designed to streamline purchase requisitions, automate vendor evaluation, ensure contract compliance, and optimize organizational spend.**
 
-[Internship Projects](#-individual-project-repositories) • [Core Capabilities](#-core-capabilities) • [Workflow](#-procurement-workflow) • [System Architecture](#%EF%B8%8F-system-architecture) • [Getting Started](#-getting-started)
-
 </div>
 
 ---
 
-## 📖 Overview & Executive Summary
+$$\large\color{#FB923C}\textsf{\textbf{📖 Overview \& Executive Summary}}$$
 
 During my 3-month **Infosys Springboard Virtual Internship 7.0**, I designed and developed three progressive backend and enterprise software engineering projects—culminating in the **Smart Procurement & Vendor Management System (SPVMS)**.
 
@@ -27,7 +26,7 @@ SPVMS modernizes traditional supply chain and procurement workflows by replacing
 
 ---
 
-## 🔗 Individual Project Repositories
+$$\large\color{#FB923C}\textsf{\textbf{🔗 Individual Project Repositories}}$$
 
 This capstone consolidates my work across the three software engineering milestones completed during the internship. You can explore, review, or inspect the standalone repositories for each individual project below:
 
@@ -39,7 +38,7 @@ This capstone consolidates my work across the three software engineering milesto
 
 ---
 
-## ✨ Core Capabilities
+$$\large\color{#FB923C}\textsf{\textbf{✨ Core Capabilities}}$$
 
 * **🤝 Vendor Registry & Risk Scoring:** Centralized vendor onboarding with profile management, compliance verification, and AI-assisted performance/risk evaluation.
 * **📝 Purchase Requisition & Approval Flow:** Structured request submission and multi-tier review pipeline to validate budget and procurement needs before order generation.
@@ -49,7 +48,7 @@ This capstone consolidates my work across the three software engineering milesto
 
 ---
 
-## 🔄 Procurement Workflow
+$$\large\color{#FB923C}\textsf{\textbf{🔄 Procurement Workflow}}$$
 
 ```text
 ┌──────────────────────┐     ┌──────────────────────┐     ┌──────────────────────┐
@@ -66,7 +65,7 @@ This capstone consolidates my work across the three software engineering milesto
 
 ---
 
-## 🛠️ System Architecture
+$$\large\color{#FB923C}\textsf{\textbf{🛠️ System Architecture}}$$
 
 The platform follows a modular, event-driven microservices architecture ensuring high availability, security, and seamless integration with external ERP systems.
 
@@ -118,11 +117,16 @@ graph TD
 
 ---
 
-## 🚀 Getting Started
+$$\large\color{#FB923C}\textsf{\textbf{🚀 Getting Started}}$$
+
+<details>
+<summary><strong>📦 Click to expand setup & installation instructions</strong></summary>
+
+<br>
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/just-deva/Infosys-project3-Smart-Procurement-and-Vendor-Management-System.git
+   git clone [https://github.com/just-deva/Infosys-project3-Smart-Procurement-and-Vendor-Management-System.git](https://github.com/just-deva/Infosys-project3-Smart-Procurement-and-Vendor-Management-System.git)
    cd Infosys-project3-Smart-Procurement-and-Vendor-Management-System
    ```
 
@@ -145,9 +149,11 @@ graph TD
 4. **Explore API Documentation**
    Once the server is running, open `http://localhost:8000/docs` for interactive Swagger UI documentation.
 
+</details>
+
 ---
 
-## 👩‍💻 Author & License
+$$\large\color{#FB923C}\textsf{\textbf{👩‍💻 Author \& License}}$$
 
 **Devadarshini S**  
 B.Tech Computer Science & Engineering (Cybersecurity) — Amrita Vishwa Vidyapeetham  
