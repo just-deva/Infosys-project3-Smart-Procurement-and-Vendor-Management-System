@@ -1,4 +1,5 @@
 # 🛒 Smart Procurement & Vendor Management System (SPVMS)
+### Capstone Project — Infosys Springboard Virtual Internship 7.0
 
 <div align="center">
 
@@ -16,19 +17,6 @@
 
 </div>
 
-<div align="center">
-
-# 📦 Smart Procurement & Vendor Management System
-### Capstone Project — Infosys Springboard Virtual Internship 7.0
-
-[![Internship](https://img.shields.io/badge/Infosys_Springboard-Virtual_Internship_7.0-007CC3?style=for-the-badge&logo=infosys&logoColor=white)](https://infyspringboard.onwingspan.com/)
-[![Duration](https://img.shields.io/badge/Duration-3_Months-2EA44F?style=for-the-badge)]()
-[![Series](https://img.shields.io/badge/Internship_Projects-3_Repositories-6E40C9?style=for-the-badge)]()
-[![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)]()
-
-*An end-to-end enterprise procurement and purchase order management platform built to streamline vendor onboarding, requisition approvals, purchase order tracking, and supply chain transparency.*
-
-</div>
 
 ---
 
