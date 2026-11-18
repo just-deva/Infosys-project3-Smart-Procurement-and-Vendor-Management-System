@@ -3,13 +3,13 @@
 # 🛒 Smart Procurement & Vendor Management System (SPVMS)
 ### Capstone Project — Infosys Springboard Virtual Internship 7.0
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge&logo=github-actions)
-![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-18.0+-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15.0+-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=for-the-badge)
+![Build Status](https://img.shields.io/badge/build-passing-4F46E5?style=for-the-badge&logo=github-actions&logoColor=A5B4FC&labelColor=1E1B4B)
+![Python](https://img.shields.io/badge/Python-3.11+-4338CA?style=for-the-badge&logo=python&logoColor=A5B4FC&labelColor=1E1B4B)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-4F46E5?style=for-the-badge&logo=fastapi&logoColor=A5B4FC&labelColor=1E1B4B)
+![React](https://img.shields.io/badge/React-18.0+-6366F1?style=for-the-badge&logo=react&logoColor=E0E7FF&labelColor=1E1B4B)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15.0+-4338CA?style=for-the-badge&logo=postgresql&logoColor=A5B4FC&labelColor=1E1B4B)
+![Docker](https://img.shields.io/badge/Docker-Enabled-4F46E5?style=for-the-badge&logo=docker&logoColor=A5B4FC&labelColor=1E1B4B)
+![License](https://img.shields.io/badge/License-Apache--2.0-3730A3?style=for-the-badge&labelColor=1E1B4B)
 
 **An end-to-end, AI-enabled enterprise procurement platform designed to streamline purchase requisitions, automate vendor evaluation, ensure contract compliance, and optimize organizational spend.**
 
