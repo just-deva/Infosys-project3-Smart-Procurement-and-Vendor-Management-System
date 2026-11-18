@@ -1,7 +1,7 @@
+<div align="center">
+
 # 🛒 Smart Procurement & Vendor Management System (SPVMS)
 ### Capstone Project — Infosys Springboard Virtual Internship 7.0
-
-<div align="center">
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge&logo=github-actions)
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -13,18 +13,17 @@
 
 **An end-to-end, AI-enabled enterprise procurement platform designed to streamline purchase requisitions, automate vendor evaluation, ensure contract compliance, and optimize organizational spend.**
 
-[Explore Features](#-core-features) • [System Architecture](#%EF%B8%8F-system-architecture) • [Getting Started](#-getting-started) • [API Documentation](#-api-reference) • [License](#-license)
+[Internship Projects](#-individual-project-repositories) • [Core Capabilities](#-core-capabilities) • [Workflow](#-procurement-workflow) • [System Architecture](#%EF%B8%8F-system-architecture) • [Getting Started](#-getting-started)
 
 </div>
 
-
 ---
 
-## 📖 Overview
+## 📖 Overview & Executive Summary
 
-During my 3-month **Infosys Springboard Virtual Internship 7.0**, I designed and developed three progressive backend and enterprise software engineering projects—culminating in the **Smart Procurement & Vendor Management System**.
+During my 3-month **Infosys Springboard Virtual Internship 7.0**, I designed and developed three progressive backend and enterprise software engineering projects—culminating in the **Smart Procurement & Vendor Management System (SPVMS)**.
 
-This capstone platform automates manual procurement cycles by connecting internal purchase requisitions with verified vendors, enforcing structured approval workflows, and maintaining clear audit trails across every purchase order.
+SPVMS modernizes traditional supply chain and procurement workflows by replacing fragmented manual spreadsheets with automated purchase order lifecycles, real-time vendor risk scoring, and automated RFQ comparisons—reducing procurement turnaround times by up to **65%** while maintaining strict audit trails and compliance.
 
 ---
 
@@ -40,13 +39,13 @@ This capstone consolidates my work across the three software engineering milesto
 
 ---
 
-## ✨ Key Capabilities (Project 3 Capstone)
+## ✨ Core Capabilities
 
-* **🤝 Vendor Registry & Onboarding:** Centralized vendor directory with profile management, contact records, service categories, and active status tracking.
-* **📝 Purchase Requisition & Approval Flow:** Structured request submission and review pipeline to validate procurement needs before order generation.
-* **🧾 Automated Purchase Order (PO) Management:** End-to-end PO creation, line-item tracking, status updates (`Draft` → `Approved` → `Dispatched` → `Fulfilled`), and order history.
-* **📊 Spend & Order Visibility:** Consolidated tracking of vendor-wise orders, procurement volume, and fulfillment timelines for operational accountability.
-* **🔐 Role-Based Access & Data Integrity:** Controlled access separation between requesters, approvers, and vendor administrators with validated inputs.
+* **🤝 Vendor Registry & Risk Scoring:** Centralized vendor onboarding with profile management, compliance verification, and AI-assisted performance/risk evaluation.
+* **📝 Purchase Requisition & Approval Flow:** Structured request submission and multi-tier review pipeline to validate budget and procurement needs before order generation.
+* **⚖️ Automated RFQ & Bidding Management:** Streamlined Request for Quotation creation and side-by-side vendor quote evaluation.
+* **🧾 Automated Purchase Order (PO) & Invoicing:** End-to-end PO lifecycle tracking (`Draft` → `Approved` → `Dispatched` → `Fulfilled`) paired with automated billing and document storage.
+* **🔐 OAuth2 / JWT & Role-Based Access Control (RBAC):** Strict access separation between requesters, approvers, finance teams, and vendor administrators.
 
 ---
 
@@ -54,30 +53,22 @@ This capstone consolidates my work across the three software engineering milesto
 
 ```text
 ┌──────────────────────┐     ┌──────────────────────┐     ┌──────────────────────┐
-│  Vendor Onboarding   │────▶│ Purchase Requisition │────▶│  Approval & Review   │
-│  & Catalog Setup     │     │     Submission       │     │      Workflow        │
+│  Vendor Onboarding   │────▶│ Purchase Requisition │────▶│  Approval & RFQ      │
+│  & Catalog Setup     │     │     Submission       │     │  Evaluation Flow     │
 └──────────────────────┘     └──────────────────────┘     └──────────┬───────────┘
                                                                      │
 ┌──────────────────────┐     ┌──────────────────────┐                ▼
-│  Delivery Tracking   │◀────│   Vendor Dispatch    │◀────┌──────────────────────┐
+│  Invoice Matching    │◀────│   Vendor Dispatch    │◀────┌──────────────────────┐
 │  & Audit Closure     │     │   & Fulfillment      │     │   Purchase Order     │
 └──────────────────────┘     └──────────────────────┘     │    (PO) Generated    │
                                                           └──────────────────────┘
-
-
----
-
-## 📌 Executive Summary
-
-The **Smart Procurement & Vendor Management System (SPVMS)** modernizes traditional supply chain and procurement workflows. By replacing fragmented manual spreadsheets with automated purchase order lifecycles, real-time vendor risk scoring, and automated RFQ comparisons, SPVMS reduces procurement turnaround times by up to **65%** while eliminating compliance bottlenecks.
+```
 
 ---
 
 ## 🛠️ System Architecture
 
-The platform follows an event-driven microservices architecture ensuring high availability, security, and seamless API integration with external ERP systems.
-
-### 1. High-Level Technical Architecture
+The platform follows a modular, event-driven microservices architecture ensuring high availability, security, and seamless integration with external ERP systems.
 
 ```mermaid
 graph TD
@@ -118,8 +109,46 @@ graph TD
     RBAC --> PR
     RBAC --> RFQ
     RBAC --> INV
-    
+
     VS & PR & RFQ & INV --> AI
     VS & PR & RFQ & INV --> DB
     VS & PR & RFQ & INV --> REDIS
     INV --> S3
+```
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/just-deva/Infosys-project3-Smart-Procurement-and-Vendor-Management-System.git
+   cd Infosys-project3-Smart-Procurement-and-Vendor-Management-System
+   ```
+
+2. **Run with Docker (Recommended)**
+   ```bash
+   docker-compose up --build
+   ```
+
+3. **Or run locally (Backend & Frontend)**
+   ```bash
+   # Backend (FastAPI)
+   pip install -r requirements.txt
+   uvicorn app.main:app --reload
+
+   # Frontend (React)
+   cd frontend
+   npm install && npm run dev
+   ```
+
+4. **Explore API Documentation**
+   Once the server is running, open `http://localhost:8000/docs` for interactive Swagger UI documentation.
+
+---
+
+## 👩‍💻 Author & License
+
+**Devadarshini S**  
+B.Tech Computer Science & Engineering (Cybersecurity) — Amrita Vishwa Vidyapeetham  
+GitHub: [@just-deva](https://github.com/just-deva) • Licensed under the **Apache-2.0 License**
