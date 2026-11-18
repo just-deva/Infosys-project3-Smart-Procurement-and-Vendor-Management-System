@@ -16,6 +16,67 @@
 
 </div>
 
+<div align="center">
+
+# 📦 Smart Procurement & Vendor Management System
+### Capstone Project — Infosys Springboard Virtual Internship 7.0
+
+[![Internship](https://img.shields.io/badge/Infosys_Springboard-Virtual_Internship_7.0-007CC3?style=for-the-badge&logo=infosys&logoColor=white)](https://infyspringboard.onwingspan.com/)
+[![Duration](https://img.shields.io/badge/Duration-3_Months-2EA44F?style=for-the-badge)]()
+[![Series](https://img.shields.io/badge/Internship_Projects-3_Repositories-6E40C9?style=for-the-badge)]()
+[![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)]()
+
+*An end-to-end enterprise procurement and purchase order management platform built to streamline vendor onboarding, requisition approvals, purchase order tracking, and supply chain transparency.*
+
+</div>
+
+---
+
+## 📖 Overview
+
+During my 3-month **Infosys Springboard Virtual Internship 7.0**, I designed and developed three progressive backend and enterprise software engineering projects—culminating in the **Smart Procurement & Vendor Management System**.
+
+This capstone platform automates manual procurement cycles by connecting internal purchase requisitions with verified vendors, enforcing structured approval workflows, and maintaining clear audit trails across every purchase order.
+
+---
+
+## 🔗 Individual Project Repositories
+
+This capstone consolidates my work across the three software engineering milestones completed during the internship. You can explore, review, or inspect the standalone repositories for each individual project below:
+
+| Project Module | Description | Repository Link |
+| :--- | :--- | :--- |
+| 🏦 **Bank Management System** | Core banking operations, account handling & transaction management | [Infosys_project_1_bank_management_system](https://github.com/just-deva/Infosys_project_1_bank_management_system) |
+| 🎓 **Student Management API** | RESTful API for student records, enrollments & academic data management | [infosys_project2_student_management_api](https://github.com/just-deva/infosys_project2_student_management_api) |
+| 📦 **Smart Procurement & Vendor Management** | Automated procurement workflows, purchase orders & vendor tracking system | [Infosys-project3-Smart-Procurement-and-Vendor-Management-System](https://github.com/just-deva/Infosys-project3-Smart-Procurement-and-Vendor-Management-System) |
+
+---
+
+## ✨ Key Capabilities (Project 3 Capstone)
+
+* **🤝 Vendor Registry & Onboarding:** Centralized vendor directory with profile management, contact records, service categories, and active status tracking.
+* **📝 Purchase Requisition & Approval Flow:** Structured request submission and review pipeline to validate procurement needs before order generation.
+* **🧾 Automated Purchase Order (PO) Management:** End-to-end PO creation, line-item tracking, status updates (`Draft` → `Approved` → `Dispatched` → `Fulfilled`), and order history.
+* **📊 Spend & Order Visibility:** Consolidated tracking of vendor-wise orders, procurement volume, and fulfillment timelines for operational accountability.
+* **🔐 Role-Based Access & Data Integrity:** Controlled access separation between requesters, approvers, and vendor administrators with validated inputs.
+
+---
+
+## 🔄 Procurement Workflow
+
+```text
+┌──────────────────────┐     ┌──────────────────────┐     ┌──────────────────────┐
+│  Vendor Onboarding   │────▶│ Purchase Requisition │────▶│  Approval & Review   │
+│  & Catalog Setup     │     │     Submission       │     │      Workflow        │
+└──────────────────────┘     └──────────────────────┘     └──────────┬───────────┘
+                                                                     │
+┌──────────────────────┐     ┌──────────────────────┐                ▼
+│  Delivery Tracking   │◀────│   Vendor Dispatch    │◀────┌──────────────────────┐
+│  & Audit Closure     │     │   & Fulfillment      │     │   Purchase Order     │
+└──────────────────────┘     └──────────────────────┘     │    (PO) Generated    │
+                                                          └──────────────────────┘
+
+
 ---
 
 ## 📌 Executive Summary
